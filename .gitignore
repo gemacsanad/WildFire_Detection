@@ -1,0 +1,27 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments (VS Code or other Python environments)
+.venv/
+venv/
+
+# Ignore large data folder (you may want to manually download it and provide instructions)
+data/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore Python logs or temporary files
+*.log
+*.tmp
+
+# Ignore the compiled Python files in case you have a .pyc or .pyo file
+*.pyo
+
+# Ignore environment-specific settings or editor files
+.vscode/
+.idea/
+
+# Ignore specific files if they are not needed in the repo (optional)
+milestone1.py  # If you don't need this file in the repo
