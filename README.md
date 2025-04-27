@@ -13,7 +13,7 @@ The outcome of this project will be a trained model capable of detecting wildfir
 A projekt futtatásához a következő lépések szükségesek:
 
 1.  **Klónozd a repót a gépedre:**
-    git clone [<repository_url>](https://github.com/gemacsanad/WildFire_Detection/)
+    git clone [https://github.com/gemacsanad/WildFire_Detection/](https://github.com/gemacsanad/WildFire_Detection/)
     cd Wildfire_Detection
     
 
