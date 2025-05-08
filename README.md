@@ -8,35 +8,41 @@ The project will explore challenges such as distinguishing smoke from clouds and
 The outcome of this project will be a trained model capable of detecting wildfires from satellite imagery.
 
 
-## Telepítés
+## Installation
 
-A projekt futtatásához a következő lépések szükségesek:
+To run the project, follow these steps:
 
-1.  **Klónozd a repót a gépedre:**
-    git clone [https://github.com/gemacsanad/WildFire_Detection/](https://github.com/gemacsanad/WildFire_Detection/)
-    cd Wildfire_Detection
-    
+1.  **Clone the repository to your machine:**
+    ```bash
+    git clone https://github.com/gemacsanad/WildFire_Detection/
+    cd WildFire_Detection
+    ```
 
-2.  **Hozd létre egy virtuális környezetet (ajánlott):**
+2.  **Create a virtual environment (recommended):**
+    ```bash
     python -m venv venv
     source venv/bin/activate  # Linux/macOS
     venv\Scripts\activate  # Windows
+    ```
 
-3.  **Telepítsd a szükséges függőségeket a `requirements.txt` fájlból:**
+3.  **Install the required dependencies from the `requirements.txt` file:**
+    ```bash
     pip install -r requirements.txt
+    ```
 
-## Futtatás
+## Running
 
-A projekt futtatásához kövesd az alábbi lépéseket:
+To run the project, follow these steps:
 
-1.  **Dataset letötlése:**
-    Futtasd a `milestone1.py` szkriptet.
+1.  **Download the dataset:**  
+    Run the `milestone1.py` script.
     ```bash
     python milestone1.py
     ```
 
-2.  **Modell tanítása:**
-    Az adathalmaz letöltése után futtasd a `model.py` szkriptet a modell betanításához.
+2.  **Train the model:**  
+    After downloading the dataset, run the `model.py` script to train the model.
     ```bash
     python model.py
     ```
+
