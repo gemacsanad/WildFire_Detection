@@ -7,17 +7,18 @@ The outcome of this project will be a trained model capable of detecting wildfir
 
 ## File structure
 
-data_loading.ipynb: downloads the dataset from kaggle, preprocess the images, save the data to .npy files
-small_model.ipynb: Code for First, really small model
-small_model.h5: First, really small model
-medium_model.ipynb: Code for medium sized model
-small_model.h5: Medium model
-small_model.ipynb: Code for the final model
-small_model.h5: Final model
-Documentation.pdf: Written report of the project
-GUI.py: GUI for the project
-requirements.txt: List of all packages with versions
-presentation folder: conations the presentations for the project
+- **data_loading.ipynb:** Downloads the dataset from Kaggle, preprocesses the images, and saves the data to `.npy` files  
+- **small_model.ipynb:** Code for the first, really small model  
+- **small_model.h5:** First, really small model  
+- **medium_model.ipynb:** Code for medium sized model  
+- **medium_model.h5:** Medium model  
+- **final_model.ipynb:** Code for the final model  
+- **final_model.h5:** Final model  
+- **Documentation.pdf:** Written report of the project  
+- **GUI.py:** GUI for the project  
+- **requirements.txt:** List of all packages with versions  
+- **presentation folder:** Contains the presentations for the project  
+
 
 
 
