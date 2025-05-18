@@ -1,27 +1,26 @@
-# Ignore Jupyter notebook checkpoints
-.ipynb_checkpoints/
-
-# Ignore virtual environments (VS Code or other Python environments)
+# Ignore virtual environment folders
 .venv/
 venv/
 
-# Ignore large data folder (you may want to manually download it and provide instructions)
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore data folders
 data/
 
-# Ignore Python bytecode files
-*.pyc
-__pycache__/
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
 
-# Ignore Python logs or temporary files
-*.log
-*.tmp
+# Ignore environment variable files
+.env
+.env.*
 
-# Ignore the compiled Python files in case you have a .pyc or .pyo file
-*.pyo
-
-# Ignore environment-specific settings or editor files
+# VS Code settings (optional)
 .vscode/
-.idea/
 
-# Ignore specific files if they are not needed in the repo (optional)
-milestone1.py  # If you don't need this file in the repo
+# macOS system files (optional)
+.DS_Store
+
+Full_documentation.docx

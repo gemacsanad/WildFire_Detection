@@ -3,9 +3,22 @@
 
 This project aims to develop a deep learning model for detecting wildfires in satellite images. 
 The dataset, sourced from Kaggle, consists of images labeled as **wildfire** and **no-wildfire**. 
-Data augmentation techniques such as rotation, flipping, resizing, and color adjustments are applied to enhance the model's generalization. 
-The project will explore challenges such as distinguishing smoke from clouds and handling images where fire is not visibly apparent.
 The outcome of this project will be a trained model capable of detecting wildfires from satellite imagery.
+
+## File structure
+
+data_loading.ipynb: downloads the dataset from kaggle, preprocess the images, save the data to .npy files
+small_model.ipynb: Code for First, really small model
+small_model.h5: First, really small model
+medium_model.ipynb: Code for medium sized model
+small_model.h5: Medium model
+small_model.ipynb: Code for the final model
+small_model.h5: Final model
+Documentation.pdf: Written report of the project
+GUI.py: GUI for the project
+requirements.txt: List of all packages with versions
+presentation folder: conations the presentations for the project
+
 
 
 ## Installation
@@ -35,14 +48,10 @@ To run the project, follow these steps:
 To run the project, follow these steps:
 
 1.  **Download the dataset:**  
-    Run the `milestone1.py` script.
+    Run the `GUI.py` script.
     ```bash
-    python milestone1.py
+    python GUI.py
     ```
 
-2.  **Train the model:**  
-    After downloading the dataset, run the `model.py` script to train the model.
-    ```bash
-    python model.py
-    ```
+
 
