@@ -49,6 +49,12 @@ To run the project, follow these steps:
 To run the project, follow these steps:
 
 1.  **Download the dataset:**  
+    Run the `data_loading.py` script.
+    ```bash
+    python data_loading.py
+    ```
+
+2.  **OR Run The GUI with the 3 available models**  
     Run the `GUI.py` script.
     ```bash
     python GUI.py
